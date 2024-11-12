@@ -2,14 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.main`
     width: 100%;
-    max-width: 80%;
     margin: 0 auto;
     margin-top: 120px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 `
 
 export const Wrapper = styled.div`
@@ -18,6 +16,12 @@ export const Wrapper = styled.div`
 
 export const Column = styled.div`
     flex: 1;
+    max-width: 565px;
+    &:nth-of-type(2){
+        width: 370px;
+        flex: none;
+
+    }
 `
 
 export const Row = styled.div`
@@ -77,6 +81,7 @@ export const CriarText =  styled.p`
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    cursor: pointer;
 
     color: #23DD7A;
 `

@@ -3,9 +3,8 @@ import styled  from 'styled-components';
 export const Container = styled.div`
    
     width: 100%;
-    max-width: 80%;
     height: 47px;
-
+    padding: 16px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,13 +15,14 @@ export const Row = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
+    gap: 16px;
 `;
 
 export const Wrapper = styled.div`
     background-color: #151515;
     width: 100%;
     height: 47px;
-    display:flex
+    display:flex;
     justify-content: center;
     align-items: center
 `
